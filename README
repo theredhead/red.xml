@@ -1,1 +1,15 @@
-This is a placeholder, look forward to more information soon
+red.xml
+=======
+
+The goal for this library is to provide a convenient, standards compliant API for the d language.
+
+Steps to follow to get a complete API (in order of importance):
+
+- Define the basic classes from XmlNode to XmlDocument etc. as required to represent an in memory representation of an xml structure.
+- Define an abstract XmlWriter and implement an XmlStringWriter
+- Define an abstract XmlReader and implement an XmlStringReader
+- Add nice-to-have features like xpath
+
+Minimum required classes for the DOM structure, in no particular order:
+
+XmlNode, XmlNodeList, XmlAttribute, XmlElement, XmlDocument, XmlText, XmlComment, XmlCDataSection, XmlProcessingInstruction
